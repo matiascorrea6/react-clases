@@ -1,10 +1,10 @@
 function Footer() {
     return (
-    <>
+        <>
         <footer>
-            <p>Copyright &copy;</p>
+            <p>&copy; Copyright 2023 - Matias Correa</p>
         </footer>
-    </>
+        </>
     );
 }
 

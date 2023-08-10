@@ -1,13 +1,16 @@
+import Navbar from './Navbar'
+
 function Header(){
-
-    let nombre = prompt("Ponga su nombre completo")
-
     return (
-    <>
-        <header className="text-5xl">
-            <h2>Bienvenido {nombre}</h2>
-        </header>
-    </>
+        <>
+        <div id="header" className="header flex justify-between items-center bg-slate-800 text-white p-5">
+            <div>
+                <img src="/logo192.png" alt="" />
+            </div>
+            <Navbar/>
+        </div>
+        </>
     );
 }
+
 export default Header
